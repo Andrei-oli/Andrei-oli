@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/style.css';
+import '../css/style.css';
 import AnDrei from './assets/img/AnDrei.svg';
 import Perfil from './assets/img/Perfil.jpg';
 
