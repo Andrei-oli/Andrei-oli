@@ -1,0 +1,123 @@
+.formacao {
+    background: var(--c11, #1F1F1F);
+}
+
+
+.formacao-container {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.formacao .subtitulo {
+    color: #000;
+    word-break: break-all;
+
+
+}
+
+.formacao-texto {
+    color: var(--c6, #949494);
+    font-family: Fira Sans;
+    font-size: 1.5rem;
+
+    line-height: 2rem;
+    padding-bottom: 3.75rem;
+}
+
+.formacao-texto strong {
+    color: #FFF;
+}
+
+.faculdade-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 60px;
+
+}
+
+.faculdade {
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    background: #0B0B0B;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.faculdade-tipo {
+    color: var(--c6, #949494);
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+.faculdade-curso {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.faculdade-curso::before {
+    content: '';
+    display: block;
+    width: 0.25rem;
+    height: 1.25rem;
+    background: var(--G2, linear-gradient(180deg, #69E1F1 0%, #113AA3 100%));
+    position: absolute;
+    left: -25px;
+}
+
+.faculdade-instituicao {
+    color: var(--c6, #949494);
+    font-size: 0.875rem;
+}
+
+.cursos {
+    margin-bottom: 60px;
+}
+
+.formacao-extra h3 {
+    color: var(--c6, #949494);
+    font-size: 0.875rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.formacao-extra h3::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    position: relative;
+    left: -36px;
+    top: 20px;
+}
+
+.cursos h3::before {
+    background: url('../src/assets/img/book.svg') no-repeat center center;
+}
+
+.idiomas h3::before {
+    background: url('../src/assets/img/idiomas.svg') no-repeat center center;
+}
+
+.formacao-extra ul {
+    color: #FFF;
+    font-size: 1.125rem;
+    padding: 20px 0px;
+}
+
+.formacao-extra ul li {
+    padding: 15px 0px;
+}
